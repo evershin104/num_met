@@ -1,3 +1,4 @@
+# Метод Якоби
 import numpy as np
 from scipy.linalg import solve, inv
 from matplotlib import pyplot as plt
