@@ -48,5 +48,5 @@ A = D + k * C
 eig, y_n = find_max_abs_eigenvalue(A)
 print(f'Max. abs. eigenvalue: {eig}')
 print(f'NumPy max. abs. eigenvalue: {np.max(np.abs(np.linalg.eigvals(A)))}')
-print(f'Discrepancy =\n{calc_discrepancy(A, y_n, eig)}')
+print(f'Discrepancy =\n{calc_discrepancy(A, rormalize(y_n), eig)}')
 print(f'Normalized vector =\n{normalize(y_n)}')
